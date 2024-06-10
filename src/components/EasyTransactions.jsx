@@ -7,14 +7,14 @@ const contents = [
         text: "Manage your digital transactions with ease"
     },
     {
-        icon: "trans-icon-1.png",
-        title: "Seamless Experience",
-        text: "Manage your digital transactions with ease"
+        icon: "trans-icon-2.png",
+        title: "Direct Bank Transfers",
+        text: "Exchange your crypto instantly"
     },
     {
-        icon: "trans-icon-1.png",
-        title: "Seamless Experience",
-        text: "Manage your digital transactions with ease"
+        icon: "trans-icon-3.png",
+        title: "Transparent Fees",
+        text: "Fixed transaction fees with no hidden charges"
     }
 ]
 

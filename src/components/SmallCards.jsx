@@ -8,24 +8,24 @@ const cardContents = [
         text: "Get started in minutes"
     },
     {
-        icon: "icon-1.png",
-        title: "Sign-Up",
-        text: "Get started in minutes"
+        icon: "icon-2.png",
+        title: "Integration",
+        text: "Easy crypto payments"
     },
     {
-        icon: "icon-1.png",
-        title: "Sign-Up",
-        text: "Get started in minutes"
+        icon: "icon-3.png",
+        title: "Verification",
+        text: "KYC, KYT, & AML checks, on us"
     },
     {
-        icon: "icon-1.png",
-        title: "Sign-Up",
-        text: "Get started in minutes"
+        icon: "icon-4.png",
+        title: "Receive Payments",
+        text: "Accept crypto payments worldwide"
     },
     {
-        icon: "icon-1.png",
-        title: "Sign-Up",
-        text: "Get started in minutes"
+        icon: "icon-5.png",
+        title: "Settlement",
+        text: "Instant crypto to fiat settlements"
     }
 ]
 
