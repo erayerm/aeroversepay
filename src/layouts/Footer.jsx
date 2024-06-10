@@ -1,3 +1,5 @@
+import { faFacebook, faInstagram, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Footer() {
 
@@ -9,15 +11,15 @@ export default function Footer() {
                     <a>Legal</a>
                     <a>Cookies</a>
                 </nav>
-                <nav className="flex gap-[17px]">
-                    <a>I</a>
-                    <a>Y</a>
-                    <a>T</a>
-                    <a>F</a>
+                <nav className="flex gap-[17px] !text-[#5589A8]">
+                    <a><FontAwesomeIcon icon={faInstagram} style={{ color: "#5589A8" }} /></a>
+                    <a><FontAwesomeIcon icon={faYoutube} /></a>
+                    <a><FontAwesomeIcon icon={faTwitter} /></a>
+                    <a><FontAwesomeIcon icon={faFacebook} /></a>
                 </nav>
             </div>
             <div className="mx-auto text-center pb-[24px]">
-                <p>© 2023 AeroVerse</p>
+                <p className="text-[#858181]">© 2023 AeroVerse</p>
             </div>
         </div>
     )
