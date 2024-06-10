@@ -1,4 +1,5 @@
 import EasyTransactions from "../components/EasyTransactions";
+import FAQ from "../components/FAQ";
 import FeaturesBenefits from "../components/FeaturesBenefits";
 import Hero from "../components/Hero";
 import HowItWorks from "../components/HowItWorks";
@@ -19,6 +20,9 @@ export default function MainContent() {
                 </div>
                 <div>
                     <TheFutureOf />
+                </div>
+                <div className="pb-[98px]">
+                    <FAQ />
                 </div>
             </div>
         </div>
