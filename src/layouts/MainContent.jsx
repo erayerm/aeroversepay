@@ -8,7 +8,7 @@ import TheFutureOf from "../components/TheFutureOf";
 export default function MainContent() {
 
     return (
-        <div className="bg-[#042944]">
+        <div className="bg-[radial-gradient(circle,_#21242F,_#0E0E14)]">
             <Hero />
             <div className="flex flex-col w-full gap-[169px]">
                 <div className="space-y-[80px]">

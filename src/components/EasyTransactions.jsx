@@ -23,7 +23,7 @@ export default function EasyTransactions() {
     return (
         <div className="max-w-[924px] mx-auto">
             <h1 className="text-[70px] font-extralight text-center pb-[35px]">EASY <span className="text-[#84D1FF] font-black">TRANSACTIONS</span></h1>
-            <div className="mx-[76px] py-[50px] px-[60px] flex gap-[30px] border-2 rounded-2xl items-center">
+            <div className="mx-[76px] py-[50px] px-[60px] flex gap-[30px] shadow-[0_0_10px_rgba(127,215,255,1)] border-[#7FD7FF] border-2 rounded-2xl items-center">
                 <div className="flex flex-col gap-[35px]">
                     {contents.map((item, index) => {
                         return <HorizontalCard key={index} content={item} />
