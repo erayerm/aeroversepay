@@ -32,7 +32,7 @@ const cardContents = [
 export default function SmallCards() {
 
     return (
-        <div className="flex justify-between">
+        <div className="flex justify-around gap-5 gap-y-10 flex-wrap">
             {cardContents.map((item, index) => <SmallCard key={index} content={item} />)}
         </div>
     )

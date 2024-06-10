@@ -27,8 +27,8 @@ export default function FeaturesBenefits() {
 
     return (
         <div className="max-w-[924px] mx-auto">
-            <h1 className="text-[70px] font-extralight text-center pb-[35px]">FEATURES & <span className="text-[#84D1FF] font-black">BENEFITS</span></h1>
-            <div className="flex justify-between items-center gap-[102px]">
+            <h1 className="px-2.5 text-[70px] font-extralight text-center pb-[35px]">FEATURES & <span className="text-[#84D1FF] font-black">BENEFITS</span></h1>
+            <div className="flex md:flex-row flex-col justify-between items-center gap-[102px]">
                 <div className="flex-1">
                     <img className="w-full" src="benefits-pic-1.png" />
                 </div>

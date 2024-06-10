@@ -4,9 +4,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Footer() {
 
     return (
-        <div className="w-screen bg-[#0D0F14]">
+        <div className="w-screen bg-[#0D0F14] px-5">
             <div className="max-w-[924px] flex justify-between mx-auto py-[24px]">
-                <nav className="flex gap-[71px]">
+                <nav className="flex gap-6 md:gap-[71px]">
                     <a>Terms & Condition</a>
                     <a>Legal</a>
                     <a>Cookies</a>
