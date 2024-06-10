@@ -2,6 +2,7 @@ import EasyTransactions from "../components/EasyTransactions";
 import FeaturesBenefits from "../components/FeaturesBenefits";
 import Hero from "../components/Hero";
 import HowItWorks from "../components/HowItWorks";
+import TheFutureOf from "../components/TheFutureOf";
 
 export default function MainContent() {
 
@@ -15,6 +16,9 @@ export default function MainContent() {
                 </div>
                 <div>
                     <FeaturesBenefits />
+                </div>
+                <div>
+                    <TheFutureOf />
                 </div>
             </div>
         </div>
